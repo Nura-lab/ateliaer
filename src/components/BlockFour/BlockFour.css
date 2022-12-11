@@ -1,0 +1,118 @@
+*body {
+    margin: 0 auto;
+    padding: 0 auto;
+    height: 1032px;
+    width: 100%;
+}
+
+.block_four {
+    height: 1032px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.our_core {
+    height: 22px;
+    width: 165px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgba(172, 165, 146, 1);
+    text-transform: uppercase;
+}
+
+.our_servic {
+    margin-top: 10px;
+    height: 70px;
+    width: 334px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 174, 43, 1);
+}
+
+.follow {
+    height: 242px;
+    width: 1200px;
+    margin-top: 104px;
+    left: 120px;
+}
+
+.design {
+    margin-top: 60px;
+    height: 350px;
+    width: 1200px;
+}
+
+.core {
+    margin-top: 130px;
+    height: 102px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 415px) {
+    .block_four {
+        height: 432px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .our_core {
+        height: 22px;
+        width: 165px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 2px;
+        text-align: center;
+        color: rgba(172, 165, 146, 1);
+        text-transform: uppercase;
+    }
+
+    .our_servic {
+        margin-top: 10px;
+        height: 70px;
+        width: 334px;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 70px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(255, 174, 43, 1);
+    }
+
+    .follow {
+        height: 82px;
+        width: 280px;
+        margin-top: 14px;
+        /* left: 80px; */
+    }
+
+    .design {
+        margin-top: 10px;
+        height: 100px;
+        width: 350px;
+    }
+
+    .core {
+        margin-top: 60px;
+        height: 102px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }  
+}

@@ -1,0 +1,207 @@
+*body {
+    margin: 0 auto;
+    padding: 0 auto;
+    height: 764px;
+    width: 100%;
+}
+
+.footer {
+    height: 764px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background: black;
+}
+
+
+.subscribe_title {
+    height: 140px;
+    width: 517px;
+    margin-top: 125px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 174, 43, 1);
+}
+
+.lorem_ipsum {
+    height: 28px;
+    width: 578px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(172, 165, 146, 1);
+}
+ img {
+    width: 48px;
+    height: 48px;
+    margin-right: 8px;
+    margin-top: 30px;
+ }
+
+
+
+.button_date_use {
+    margin-top: 50px;
+    height: 59px;
+    width: 420px;
+    border-radius: 0px;
+    border: 1px solid rgba(75, 65, 54, 1);
+    background: none;
+    color: rgba(255, 174, 43, 1);
+}
+
+.button_subscribe {
+    height: 50px;
+    width: 420px;
+    border: none;
+    background: rgba(255, 174, 43, 1);
+    font-family: Old Standard TT;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(24, 21, 17, 1);
+}
+
+.footer_nav {
+    height: 72px;
+    width: 1200px;
+    margin-top: 48px;
+    border-top: 2px solid rgba(75, 65, 54, 1);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.like_button {
+    padding: 0 auto;
+    width: 108px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-left: 2px solid  rgba(75, 65, 54, 1);
+    border-right: 2px solid  rgba(75, 65, 54, 1);
+    color: rgba(255, 174, 43, 1);
+}
+
+.ps {
+    display: flex;
+    color: rgba(255, 174, 43, 1);
+} 
+
+.lore {
+    color: rgba(172, 165, 146, 1);
+}
+
+@media(max-width: 415px) {
+    *body {
+        margin: 0 auto;
+        padding: 0 auto;
+        height: 764px;
+        width: 100%;
+    }
+    
+    .footer {
+        height: 464px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        background: black;
+    }
+    
+    
+    .subscribe_title {
+        height: 80px;
+        width: 317px;
+        margin-top: 35px;
+        font-size: 30px;
+        font-weight: 100;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(255, 174, 43, 1);
+    }
+    
+    .lorem_ipsum {
+        height: 18px;
+        width: 308px;
+        font-size: 12px;
+        font-weight: 100;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(172, 165, 146, 1);
+    }
+     img {
+        width: 48px;
+        height: 48px;
+        margin-right: 8px;
+        margin-top: 30px;
+     }
+    
+    
+    
+    .button_date_use {
+        height: 30px;
+        width: 220px;
+        margin-top: 30px;
+        border-radius: 0px;
+        border: 1px solid rgba(75, 65, 54, 1);
+        background: none;
+        color: rgba(255, 174, 43, 1);
+    }
+    
+    .button_subscribe {
+        height: 30px;
+        width: 220px;
+        border: none;
+        background: rgba(255, 174, 43, 1);
+        font-size: 7px;
+        font-weight: 100;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(24, 21, 17, 1);
+    }
+    
+    .footer_nav {
+        height: 52px;
+        width: 385px;
+        margin-top: 18px;
+        font-size: 10px;
+        /* border-top: 2px solid rgba(75, 65, 54, 1);
+        display: flex;
+        justify-content: space-between;
+        text-align: center; */
+    }
+    
+    .like_button {
+        /* padding: 0 auto; */
+        width: 64px;
+        height: 15px;
+        /* display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-right: 15px;
+        margin-left: 15px;
+        border-left: 2px solid  rgba(75, 65, 54, 1);
+        border-right: 2px solid  rgba(75, 65, 54, 1);
+        color: rgba(255, 174, 43, 1); */
+    }
+}
+
+
+

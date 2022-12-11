@@ -1,0 +1,113 @@
+*body {
+    margin: 0 auto;
+    padding: 0 auto;
+    height: 80px;
+    width: 100%;
+}
+.header {
+    height: 80px;
+    background: rgba(24, 21, 17, 1);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.block_menu {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title_atelier {
+    padding-left: 20px;
+    padding-right: 42px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: rgba(255, 174, 43, 1);
+}
+
+ul {
+    display: flex;
+} li {
+    padding-right: 40px;
+    list-style: none;
+    color: rgba(172, 165, 146, 1);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.button_template {
+    height: 52px;
+    width: 147px;
+    border-radius: 0px;
+    border: 1px solid rgba(255, 174, 43, 1);
+    background: none;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    padding-right: 15px;
+    color: rgba(255, 174, 43, 1);
+}
+
+@media(max-width: 415px) {
+    .header {
+        height: 60px;
+        background: rgba(24, 21, 17, 1);
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .block_menu {
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .title_atelier {
+        padding-left: 20px;
+        padding-right: 22px;
+        font-size: 10px;
+        font-weight: 150;
+        line-height: 10px;
+        letter-spacing: 0em;
+        color: rgba(255, 174, 43, 1);
+    }
+    
+    ul {
+        display: flex;
+        flex-direction: column;
+    } li {
+        padding-right: 40px;
+        list-style: none;
+        color: rgba(172, 165, 146, 1);
+        font-size: 6px;
+        font-weight: 50;
+        line-height: 8px;
+        letter-spacing: 0em;
+    }
+    
+    .button_template {
+        height: 32px;
+        width: 150px;
+        border-radius: 0px;
+        border: 1px solid rgba(255, 174, 43, 1);
+        background: none;
+        font-size: 10px;
+        font-weight: 100;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+        text-transform: uppercase;
+        padding-right: 15px;
+        color: rgba(255, 174, 43, 1);
+    }
+    
+}

@@ -1,0 +1,112 @@
+*body {
+    margin: 0 auto;
+    padding: 0 auto;
+    height: 602px;
+    width: 100%;
+}
+.block_first {
+    height: 602px;
+    background-image: url("../Images/atelier_one.png");
+    background-size: cover;
+}
+.button_view {
+    height: 50px;
+    width: 143px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;  
+    background: rgba(255, 174, 43, 1); 
+    border: none; 
+}
+
+.block_weare {
+    height: 302px;
+    width: 1200px;
+    padding-left: 120px;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weare {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgba(255, 174, 43, 1);
+}
+
+.unique {
+    height: 160px;
+    width: 869px;
+    left: 166px;
+    margin-top: 15px;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+@media(max-width: 415px) {
+    /* *body {
+        margin: 0 auto;
+        padding: 0 auto;
+        height: 302px;
+        width: 100%;
+    } */
+    .block_first {
+        height: 190px;
+        width: 100%;
+        background-image: url("../Images/atelier_one.png");
+        background-size: cover;
+    }
+    .button_view {
+        height: 30px;
+        width: 123px;
+        font-size: 11px;
+        font-weight: 300;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: center;  
+        background: rgba(255, 174, 43, 1); 
+        border: none; 
+    }
+    
+    .block_weare {
+        height: 150px;
+        width: 180px;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .weare {
+        font-size: 10px;
+        font-weight: 100;
+        line-height: 8px;
+        letter-spacing: 2px;
+        text-align: center;
+        color: rgba(255, 174, 43, 1);
+    }
+    
+    .unique {
+        height: 80px;
+        width: 280px;
+        /* left: 166px; */
+        font-size: 30px;
+        font-weight: 100;
+        line-height: 30px;
+        letter-spacing: 1px;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+    }
+}
